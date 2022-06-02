@@ -1,0 +1,38 @@
+Method:
+  hotelsInCountry	
+Description:
+  Returns a list of all hotels in the country provided.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @country (required) - The country the query is for.
+
+
+Method:
+  hotelsInCity	
+Description:
+  Returns a list of all hotels in the city provided.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @city (required) - The city the query is for.
+
+
+Method:
+  getHotelInformation
+Description:
+  Returns comprehensive information for the hotel.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @hotelId (required) - The hotel the query is for. This can be found with the hotelsInCountry and/or hotelsInCity functions.
+
+
+Method:
+  getHotelGallery
+Description:
+  Returns a gallery for the hotel.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @hotelId (required) - The hotel the query is for. This can be found with the hotelsInCountry and/or hotelsInCity functions.
