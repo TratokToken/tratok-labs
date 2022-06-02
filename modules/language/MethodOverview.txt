@@ -1,0 +1,29 @@
+
+Method: 
+  detectLanguage	
+Description: 
+  Detects the language of the text provided.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @text (required) - The text required for classification.
+
+Method:
+  translate
+Description: 
+  Translates the provided text and returns the translation.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @sourceLanguage (required) - The shorthand code for the language of the original text (can be found with supportedLanguages function if language is known or detectLanguage if unknown).
+  @targetLanguage (required) - The shorthand code for the language to be translated into (can be found with supportedLanguages function).
+  @text (required) - The text required for translation
+  
+Method:
+  supportedLanguages	
+Description:
+  Returns the list and short names for supported languages.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+
