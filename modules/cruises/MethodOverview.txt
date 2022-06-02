@@ -1,0 +1,17 @@
+Method:
+  getListOfCruiseVenues	
+Description:
+  Lists all the regiona that have avaialable cruises in Tratok's ecosystem.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+
+
+Method:
+  getListOfCruisesAtVenue	
+Description:
+  Returns comprehensive cruise information for a geographic area in Tratok's ecosystem.
+Parameters:
+  @id (required) - The unique application id.
+  @secret (required) - The unique API key for the specified application.
+  @area (required) - The area that the cruises are based in. These can be found using the getListOfCruiseVenues
