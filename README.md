@@ -10,7 +10,7 @@ FLEXIBLE INTEGRATION
 Flexible developer UI allows seamless integration into any programming language within minutes. With multiple examples available and a growing community, spend less time coding and more time on customer service.
 
 ECONOMICAL
-With the first 1,000 requests every month being free, and subsequent requests charged at 1 TRAT per 100 requests, the development APIs are built for every budget. From freelances to large organizations, all are welcome to join in Tratok's mission to provide the world with disruptive travel technology.
+With the first 1,000 requests every month being free, and subsequent requests charged at 1 TRAT per 10 requests, the development APIs are built for every budget. From freelances to large organizations, all are welcome to join in Tratok's mission to provide the world with disruptive travel technology.
 
 LOW LATENCY
 The Tratok Ecosystem Developer APIs are not only ultra secure and reliable but also feature ultra low latency. In benchmarked tests of 100,000 queries per minute, the average latency time is 249ms.
