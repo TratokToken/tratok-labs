@@ -1,1 +1,0 @@
-This is an example provided by HardG in Python showing a use case of Tratok's ecosystem translator. It is extremely light weight at less than 10 lines of code and takes advantage of Python's requests library
